@@ -1,0 +1,15 @@
+# Spark checksum / marker files
+*.crc
+_SUCCESS
+# Spark streaming state
+checkpoints/
+spark-warehouse/
+metastore_db/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+# OS / editor
+.DS_Store
+.vscode/
